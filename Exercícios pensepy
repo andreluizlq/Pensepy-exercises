@@ -1,0 +1,54 @@
+def questao1():
+    return(5**2,9*5,15/12,12/15,15//12,12//15,5%2,9%5,15%12,12%5,6%6,0%7)
+print(questao1())
+
+def questao2(a):
+    x = (2+51)%24
+    return x
+
+def questao3(a,b):
+    x = (a+b)%24
+    return print("O alarme irá despertar às {} horas".format(x))
+
+def questao4(a,c):
+    a = date.today()
+    futuro = date.fromordial(a.toodinal()+c)
+    dias = ("segundta-feira","terça-feira","quarta-feira","quinta-feira","sexta-feira","sábado","domingo"
+
+    return dias[futuro.weekday()]        
+
+def questao5():
+a = str(só)
+b = str(trabalho)
+c = str(sem)
+d = str(diversão)
+e = str(faz)
+f = str(joão)
+g = str(em)
+h = str(chato)
+
+print(a, b, c, d, e, f, g, h)
+            
+def questao6():
+   return (6*(1-2))
+
+def questao7(t):
+    a = 10000*((1+(0.08/12))**(12*t))
+    return a
+            
+def questao8(r):
+    a = 3,14*(r**2)
+    return a
+            
+def questao9(a,b):
+    return(a*b)
+            
+def questao10(k,l):
+    x = k/l
+    return x
+
+def questao11(c):
+    return (c*1.8)+32
+            
+def questao12(f):
+    return (f-32)/1.8
