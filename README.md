@@ -1,1 +1,1 @@
-# exerc-cios-pensepy
+Pensepy exercises
